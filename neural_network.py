@@ -36,7 +36,7 @@ class NeuralNetwork:
 
 
 setup = [785, 20, 10]
-file = open("mnist_test.csv", "r")
+file = open("data/mnist_test.csv", "r")
 data = list(csv.reader(file))
 
 weight1 = np.random.uniform(-0.5, 0.5, (20, 785))
