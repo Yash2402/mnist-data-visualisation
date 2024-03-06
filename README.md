@@ -5,4 +5,4 @@ A deep neural network model with one hidden layer that can classify digits from 
 ```bash
 git clone https://github.com/Yash2402/Neural-Network.git
 ```
-# Neural-Network
+After cloning repository, download MNIST Dataset ![Mnist Dataset](https://drive.google.com/drive/folders/1pYPgCPVr3MCSMz_lUHxfwzbWViPNnaON?usp=share_link), unzip it and then store this in ```neural-network/``` folder
