@@ -1,5 +1,4 @@
 import csv
-import sys
 
 import pygame
 
@@ -7,9 +6,10 @@ file = open("data/mnist_test.csv", "r")
 data = list(csv.reader(file))
 
 k = 1
-tile_size = int(sys.argv[1])
+tile_size = 20
 
 screen = pygame.display.set_mode((28 * tile_size, 28 * tile_size), pygame.RESIZABLE)
+pygame.display.set_caption("Mnist Data")
 run = True
 while run:
     screen.fill((255, 255, 255))
@@ -23,7 +23,7 @@ while run:
         if pygame.key.get_pressed() and event.type == pygame.K_SPACE:
             pass
 
-    u = 0
+    u = 1
     for i in range(28):
         for j in range(28):
             if k != 0:
